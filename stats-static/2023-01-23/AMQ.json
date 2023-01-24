@@ -1,0 +1,112 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 9,
+        "css": 1
+      },
+      "js": 68,
+      "tsx": 130,
+      "ts": 133,
+      "jsx": 1,
+      "css": 2
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/console/console-init/ui/src/components/NetworkStatusAlert/NetworkStatusAlert.tsx",
+          "/console/console-init/ui/src/components/NotFound/NotFound.tsx",
+          "/console/console-init/ui/src/components/SortForMobileView/SortForMobileView.tsx",
+          "/console/console-init/ui/src/index.tsx",
+          "/console/console-init/ui/src/modules/address-detail/components/AddressLinksToolbar/AddressLinksToolbar.tsx",
+          "/console/console-init/ui/src/modules/address-space/components/MessagingToolbar/MessagingToolbar.tsx",
+          "/console/console-init/ui/src/modules/address/components/AddressToolbar/AddressToolbar.tsx",
+          "/console/console-init/ui/src/modules/connection-detail/components/ConnectionLinksToolbar/ConnectionLinksToolbar.tsx",
+          "/console/console-init/ui/src/modules/connection/components/ConnectionsToolbar/ConnectionsToolbar.tsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/console/console-init/ui/src/App.css"
+        ]
+      }
+    }
+  },
+  "imports": {},
+  "classes": {
+    "pf-c-nav__link": 2,
+    "pf-m-toggle-group-container": 6,
+    "pf-m-redhat-font": 1,
+    "pf-c-brand": 1,
+    "pf-c-page__header": 2
+  },
+  "scssVars": {},
+  "repo": "https://github.com/EnMasseProject/enmasse",
+  "name": "AMQ",
+  "date": "2023-01-23T21:24:19.517Z",
+  "dependencies": {
+    "@apollo/react-hooks": 1,
+    "@apollo/react-testing": 1,
+    "@patternfly/react-charts": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-styles": 1,
+    "@patternfly/react-table": 1,
+    "@rescripts/cli": 1,
+    "@storybook/addon-actions": 1,
+    "@storybook/addon-docs": 1,
+    "@storybook/addon-knobs": 1,
+    "@storybook/addon-links": 1,
+    "@storybook/addon-viewport": 1,
+    "@storybook/addons": 1,
+    "@storybook/react": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@types/classnames": 1,
+    "@types/jest": 1,
+    "@types/node": 1,
+    "@types/react": 1,
+    "@types/react-dom": 1,
+    "@types/react-router": 1,
+    "@types/react-router-dom": 1,
+    "apollo-boost": 1,
+    "apollo-server": 1,
+    "babel-loader": 1,
+    "clone": 2,
+    "date-fns": 1,
+    "debug": 1,
+    "elliptic": 1,
+    "escape-string-regexp": 1,
+    "eslint": 1,
+    "fast-json-patch": 1,
+    "graphql": 2,
+    "handlebars": 1,
+    "husky": 1,
+    "jison": 1,
+    "jsonpath": 1,
+    "lint-staged": 1,
+    "mocha": 2,
+    "mocha-junit-reporter": 1,
+    "p-limit": 1,
+    "prettier": 1,
+    "react": 1,
+    "react-ace": 1,
+    "react-async": 1,
+    "react-dom": 1,
+    "react-popper": 1,
+    "react-router": 1,
+    "react-router-dom": 1,
+    "react-router-last-location": 1,
+    "react-scripts": 1,
+    "react-testing-library": 1,
+    "request": 1,
+    "rhea": 1,
+    "thenby": 1,
+    "traverse": 1,
+    "ts-loader": 1,
+    "tsconfig-paths-webpack-plugin": 1,
+    "typescript": 1,
+    "use-patternfly": 1,
+    "uuid": 1
+  }
+}

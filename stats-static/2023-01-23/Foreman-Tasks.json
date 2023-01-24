@@ -1,0 +1,33 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "js": 183,
+      "css": 2,
+      "scss": 11
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/theforeman/foreman-tasks",
+  "name": "Foreman-Tasks",
+  "date": "2023-01-23T21:24:19.517Z",
+  "dependencies": {
+    "@babel/core": 1,
+    "@theforeman/builder": 1,
+    "@theforeman/eslint-plugin-foreman": 1,
+    "@theforeman/stories": 1,
+    "@theforeman/test": 1,
+    "@theforeman/vendor-dev": 1,
+    "babel-eslint": 1,
+    "c3": 1,
+    "eslint": 1,
+    "jed": 1,
+    "prettier": 1,
+    "stylelint": 1,
+    "stylelint-config-standard": 1,
+    "surge": 1
+  }
+}

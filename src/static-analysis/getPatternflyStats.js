@@ -44,7 +44,10 @@ function getPatternflyStats(repoPath) {
   const styleFiles = glob.sync(`${repoPath}/**/*.{css,sass,scss,less}`);
 
   // https://regex101.com/r/hcIlRX/1
-  const importRegex = /import\s+{?([\w\s,*]+)}?\s+from\s+['"](.*patternfly.*)['"]/gm;
+  // const importRegex = /import\s+{?([\w\s,*]+)}?\s+from\s+['"](.*patternfly.*)['"]/gm;
+
+  // https://regex101.com/r/ocibuq/1
+  const importRegex = /(var|let|const)\s+{?([\w\s,*]+)}?\s+=\s+require\((.*@patternfly.*)['"]\)/gm
   // https://regex101.com/r/GGCTuA/1
   const classRegex = /[^-\w](pf-[clum]-.*?)['"\s]/gm;
   // https://regex101.com/r/gpPax3/1

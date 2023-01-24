@@ -1,0 +1,93 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 1,
+        "css": 1
+      },
+      "js": 3,
+      "ts": 10,
+      "tsx": 11,
+      "css": 2
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/packages/appservices-patternfly-crossconsole/src/components/CrossNavHeader/CrossNavHeader.tsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/packages/appservices-patternfly-core/styles/core.css"
+        ]
+      }
+    }
+  },
+  "imports": {},
+  "classes": {
+    "pf-m-no-toggle": 1,
+    "pf-m-no-crossconsole`}": 1,
+    "pf-c-page__header.pf-m-no-toggle": 7,
+    "pf-c-page__header-tools": 6,
+    "pf-c-page__header-brand-link": 6,
+    "pf-c-page__header.pf-m-no-crossconsole": 4,
+    "pf-c-page__header-brand-toggle": 5,
+    "pf-c-page__header": 3,
+    "pf-c-brand": 1,
+    "pf-c-context-selector": 3,
+    "pf-c-context-selector__toggle": 3,
+    "pf-c-context-selector__toggle::before": 3,
+    "pf-m-expanded.pf-c-context-selector__toggle::before,": 1,
+    "pf-c-context-selector__toggle:hover::before,": 1,
+    "pf-c-context-selector__toggle:focus::before": 1,
+    "pf-c-button": 1,
+    "pf-c-page__header.pf-m-no-crossconsole.pf-m-no-toggle": 1
+  },
+  "scssVars": {
+    "--pf-global--spacer--md": 5,
+    "--pf-global--BackgroundColor--dark": 1,
+    "--pf-global--BorderColor--200": 4,
+    "--pf-global--BorderWidth--lg": 1,
+    "--pf-global--active-color-": 1,
+    "--pf-global--BorderWidth--sm": 1,
+    "--pf-global--spacer--sm": 3,
+    "--pf-global--BackgroundColor--200": 1
+  },
+  "repo": "https://github.com/rh-uxd/integration",
+  "name": "Common-Integration",
+  "date": "2023-01-24T18:37:34.093Z",
+  "dependencies": {
+    "@patternfly/react-core": 3,
+    "@patternfly/react-icons": 3,
+    "@rh-uxd/appservices-patternfly-core": 3,
+    "@rh-uxd/appservices-patternfly-crossconsole": 2,
+    "@types/jest": 3,
+    "@types/node": 2,
+    "@types/react": 3,
+    "@types/react-dom": 3,
+    "axios": 1,
+    "copy-webpack-plugin": 1,
+    "css-loader": 1,
+    "jest": 1,
+    "lerna": 1,
+    "path": 1,
+    "raw-loader": 1,
+    "react": 3,
+    "react-dom": 3,
+    "react-scripts": 2,
+    "rimraf": 2,
+    "style-loader": 2,
+    "svg-url-loader": 1,
+    "ts-jest": 1,
+    "ts-loader": 2,
+    "typedoc": 2,
+    "typescript": 4,
+    "url-loader": 1,
+    "watch": 1,
+    "webpack": 2,
+    "webpack-bundle-analyzer": 2,
+    "webpack-cli": 2,
+    "webpack-dev-server": 2,
+    "webpack-merge": 2
+  }
+}
